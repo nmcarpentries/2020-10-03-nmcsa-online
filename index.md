@@ -10,7 +10,7 @@ language: "en"     # lowercase two-letter ISO language code such as "fr" (see ht
 latitude: ""        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: ""       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "Oct 3, 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "9:00 am - 2:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humantime: "9:00 am - 3:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2020-10-03      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2020-10-03        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Mark Servilla", "Karl Benedict"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -165,8 +165,9 @@ SPECIAL REQUIREMENTS
 Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+  <strong>Requirements:</strong> Learners will have access to a cloud Python platform, so the main system requirements are internet access and a modern
+  browser. School-issued Chromebooks will be fine! Alternatively, learners may use a laptop with a
+  Mac, Linux, or Windows operating system that they have administrative privileges on. If desired, they can install some useful software packages (listed <a href="#setup">below</a>).
 </p>
 
 {% comment %}
