@@ -368,6 +368,10 @@ please preview your site before committing, and make sure to run
 <h2 id="setup">Setup</h2>
 
 <p>
+  <strong>IMPORTANT NOTE ABOUT SETUP FOR THIS WORKSHOP:</strong> The setup information provided through the links below is optional for this workshop. A cloud-based Python environment will be available to all students. There are no additional setup requirements aside from internet access and a modern web browser. Students who are interested are welcome and encouraged to install the workshop environment on their personal laptops, and we will set aside time to troubleshoot installation issues. But the instructions below are being left available for the sake of interest and are not required.
+</p>
+
+<p>
   To participate in a
   {% if site.carpentry == "swc" %}
   Software Carpentry
